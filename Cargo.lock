@@ -3,5 +3,23 @@
 version = 3
 
 [[package]]
+name = "TSPL"
+version = "0.0.9"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5a9423b1e6e2d6c0bbc03660f58f9c30f55359e13afea29432e6e767c0f7dc25"
+dependencies = [
+ "highlight_error",
+]
+
+[[package]]
+name = "highlight_error"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "809e18805660d7b6b2e2b9f316a5099521b5998d5cba4dda11b5157a21aaef03"
+
+[[package]]
 name = "lambda-compiler"
 version = "0.1.0"
+dependencies = [
+ "TSPL",
+]
