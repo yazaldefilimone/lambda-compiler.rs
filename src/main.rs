@@ -1,7 +1,5 @@
 use std::fmt;
-// use TSPL::new_parser;
 pub use TSPL::Parser;
-// typed lambda calculus
 
 #[derive(Clone)]
 pub enum Type {
